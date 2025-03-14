@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Home Page estilo Spotify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto em React resultado do curso Imersão Front-End da Alura, tendo como base site feito em HTML puro desenvolvido
+durante o projeto.
 
-## Available Scripts
+## Scripts para funcionamento
 
-In the project directory, you can run:
+Antes de rodar o projeto execute
+
+### `npm i`
+
+Isso irá instalar os modulos necessários para o funcionamento da aplicação.
+
+Para iniciar o projeto utilize
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O comando irá iniciar um JSON Server na porta 3500 básico para o funcionamento de uma função no buscador de artistas da página.
+E irá executar o típico react-scripts start, iniciando a aplicação m modo de desenvolvimento no endereço [http://localhost:3000](http://localhost:3000)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+A aplicação conta com uma barra de busca funcional, que dependendo do input irá retornar artistas cujo nome estejam no arquivo json,
+exibindo assim um card com a imagem e o nome do artista. A lista é limitada pois a intenção da aplicação em si é somente para estudo da
+criação de uma aplicação em React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Ferramentas Utilizadas
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dentre as ferramentas utilizadas, o `npx generate-react-cli component` foi um achado curioso, como sou acostumado com o desenvolvimento em Angular
+e esse framework possui ferramentas próprias para a criação de componentes, busquei um equivalente para o React e encontrei esse modulo,
+uma forma fácil e pratica de criar componentes para a aplicação e deixar o projeto organizado, sendo que cada componente fica em sua devida pasta
+com o seu arquivo css, facilitando a correção dos estilos de cada componente.
