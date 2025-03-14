@@ -1,0 +1,16 @@
+{
+  "usesTypeScript": false,
+  "testLibrary": "None",
+  "usesStyledComponents": false,
+  "cssPreprocessor": "css",
+  "usesCssModule": false,
+  "component": {
+    "default": {
+      "path": "C:/Users/helio/spotify-react/src",
+      "withStyle": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  }
+}
